@@ -22,8 +22,9 @@ public class GreetingsController {
     }
 
     @GetMapping("/{language}")
-    public ResponseEntity<Greeting> getGreetingByLanguage(@PathVariable("language") String language) throws GreetingNotFoundException {
+    public ResponseEntity<Greeting> getGreetingByLanguage(@PathVariable("language") String language) throws GreetingNotFoundException, InterruptedException {
         Greeting foundGreeting =  service.getGreetingByLanguage(language);
+        Thread.sleep(2000L);
         return ResponseEntity.ok(foundGreeting);
     }
 }
