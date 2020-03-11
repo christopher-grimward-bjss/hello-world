@@ -1,0 +1,48 @@
+2020-03-10 15:25:39,889 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-03-10 15:25:39,920 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.2.1/libexec/bin/user.properties
+2020-03-10 15:25:39,921 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.2.1/libexec/bin/system.properties
+2020-03-10 15:25:39,923 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-03-10 15:25:39,923 INFO o.a.j.JMeter: Version 5.2.1
+2020-03-10 15:25:39,923 INFO o.a.j.JMeter: java.version=13.0.1
+2020-03-10 15:25:39,923 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-03-10 15:25:39,923 INFO o.a.j.JMeter: os.name=Mac OS X
+2020-03-10 15:25:39,923 INFO o.a.j.JMeter: os.arch=x86_64
+2020-03-10 15:25:39,923 INFO o.a.j.JMeter: os.version=10.14.5
+2020-03-10 15:25:39,924 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-03-10 15:25:39,924 INFO o.a.j.JMeter: java.awt.headless=null
+2020-03-10 15:25:39,924 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-03-10 15:25:39,924 INFO o.a.j.JMeter: Available Processors =12
+2020-03-10 15:25:39,934 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-03-10 15:25:39,934 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-03-10 15:25:39,934 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.2.1/libexec
+2020-03-10 15:25:39,934 INFO o.a.j.JMeter: user.dir  =/Users/christopher.grimward/Development/repo/performanceTesting/src/test/resources/performance_tests
+2020-03-10 15:25:39,934 INFO o.a.j.JMeter: PWD       =/Users/christopher.grimward/Development/repo/performanceTesting/src/test/resources/performance_tests
+2020-03-10 15:25:39,953 INFO o.a.j.JMeter: IP: 10.255.239.51 Name: MAC4316 FullName: 10.255.239.51
+2020-03-10 15:25:42,526 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-03-10 15:25:42,533 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: javax.swing.plaf.nimbus.NimbusLookAndFeel [Darcula]
+2020-03-10 15:25:42,533 INFO o.a.j.JMeter: Setting LAF to: javax.swing.plaf.nimbus.NimbusLookAndFeel
+2020-03-10 15:25:42,581 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-03-10 15:25:43,301 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-d09685a3a3a71c8b3e52fdd1d24b6a99-gui
+2020-03-10 15:25:44,994 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.3, jmeter-core=5.2.1, jmeter-ftp=5.2.1, jmeter-http=5.2.1, jmeter-jdbc=5.2.1, jmeter-jms=5.2.1, jmeter-junit=5.2.1, jmeter-java=5.2.1, jmeter-ldap=5.2.1, jmeter-mail=5.2.1, jmeter-mongodb=5.2.1, jmeter-native=5.2.1, jmeter-tcp=5.2.1, jmeter-components=5.2.1]
+2020-03-10 15:25:45,087 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-10 15:25:45,087 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-10 15:25:45,087 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-10 15:25:45,088 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-10 15:25:45,088 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-03-10 15:25:45,088 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-03-10 15:25:45,389 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-03-10 15:25:45,389 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/local/Cellar/jmeter/5.2.1/libexec/bin/proxyserver.jks
+2020-03-10 15:25:45,517 INFO o.a.j.s.FileServer: Default base='/Users/christopher.grimward/Development/repo/performanceTesting/src/test/resources/performance_tests'
+2020-03-10 15:25:45,785 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-03-10 15:25:45,785 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-03-10 15:25:45,785 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-03-10 15:25:45,785 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-03-10 15:25:45,803 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2020-03-10 15:25:52,366 INFO o.a.j.g.a.Load: Loading file: /Users/christopher.grimward/Development/repo/performanceTesting/src/test/resources/jmeter/My_First_Performance_Test.jmx
+2020-03-10 15:25:52,366 INFO o.a.j.s.FileServer: Set new base='/Users/christopher.grimward/Development/repo/performanceTesting/src/test/resources/jmeter'
+2020-03-10 15:25:52,491 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-03-10 15:25:52,496 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-03-10 15:25:52,498 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-03-10 15:25:52,499 INFO o.a.j.s.SaveService: Loading file: /Users/christopher.grimward/Development/repo/performanceTesting/src/test/resources/jmeter/My_First_Performance_Test.jmx
+2020-03-10 15:25:52,677 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2020-03-10 15:25:52,722 INFO o.a.j.s.FileServer: Set new base='/Users/christopher.grimward/Development/repo/performanceTesting/src/test/resources/jmeter'

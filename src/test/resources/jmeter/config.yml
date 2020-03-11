@@ -1,0 +1,7 @@
+scenarios:
+  with_script:
+    script: My_First_Performance_Test.jmx
+
+reporting:
+  - module: pass/fail
+  - module: final-stats
