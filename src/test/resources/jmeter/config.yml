@@ -16,3 +16,4 @@ reporting:
         stop: false
         fail: true
   - module: final-stats
+    dump-xml: results.xml
