@@ -13,5 +13,5 @@ reporting:
         threshold: 10ms
         logic: for
         timeframe: 1s
-        stop: false
+        stop: true
         fail: true
