@@ -7,4 +7,11 @@ scenarios:
 
 reporting:
   - module: passfail
+    criteria:
+      - subject: avg-rt
+        condition: >
+        threshold: 60ms
+        logic: for
+        timeframe: 30s
+        stop: false
   - module: final-stats
