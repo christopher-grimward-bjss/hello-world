@@ -6,6 +6,7 @@ scenarios:
     script: My_First_Performance_Test.jmx
 
 reporting:
+  - module: console
   - module: passfail
     criteria:
       - subject: avg-rt
@@ -15,5 +16,3 @@ reporting:
         timeframe: 30s
         stop: false
         fail: true
-  - module: final-stats
-    dump-xml: results.xml
