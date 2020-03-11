@@ -9,9 +9,10 @@ reporting:
   - module: passfail
     criteria:
       - subject: avg-rt
-        condition: >
+        condition: '>'
         threshold: 60ms
         logic: for
         timeframe: 30s
         stop: false
+        fail: true
   - module: final-stats
