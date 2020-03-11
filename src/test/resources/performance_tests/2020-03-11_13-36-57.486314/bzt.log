@@ -1,0 +1,55 @@
+[2020-03-11 13:36:57,442 INFO root] Taurus CLI Tool v1.14.1
+[2020-03-11 13:36:57,443 DEBUG root] Command-line options: {'log': '/var/folders/64/8vj76xwx4tq6ymjy4z1vbw9hrj3f4w/T/bzt_x09greko.log', 'option': None, 'quiet': None, 'verbose': None, 'no_system_configs': None, 'aliases': []}
+[2020-03-11 13:36:57,443 DEBUG root] Python: CPython 3.7.7
+[2020-03-11 13:36:57,443 DEBUG root] OS: uname_result(system='Darwin', node='MAC4316', release='18.6.0', version='Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; root:xnu-4903.261.4~2/RELEASE_X86_64', machine='x86_64', processor='i386')
+[2020-03-11 13:36:57,443 INFO root] Starting with configs: []
+[2020-03-11 13:36:57,443 DEBUG root] Adding personal config: /Users/christopher.grimward/.bzt-rc
+[2020-03-11 13:36:57,443 INFO root] No personal config found, creating one at /Users/christopher.grimward/.bzt-rc
+[2020-03-11 13:36:57,444 INFO Engine] Configuring...
+[2020-03-11 13:36:57,457 DEBUG Engine] Base configs list: ['/usr/local/Cellar/bzt/1.14.1/libexec/lib/python3.7/site-packages/bzt/resources/10-base-config.yml']
+[2020-03-11 13:36:57,457 DEBUG Engine.Configuration] Configs: ['/usr/local/Cellar/bzt/1.14.1/libexec/lib/python3.7/site-packages/bzt/resources/10-base-config.yml']
+[2020-03-11 13:36:57,457 DEBUG Engine.Configuration] Reading /usr/local/Cellar/bzt/1.14.1/libexec/lib/python3.7/site-packages/bzt/resources/10-base-config.yml as YAML
+[2020-03-11 13:36:57,476 DEBUG Engine] User configs list: ['/Users/christopher.grimward/.bzt-rc']
+[2020-03-11 13:36:57,476 DEBUG Engine.Configuration] Configs: ['/Users/christopher.grimward/.bzt-rc']
+[2020-03-11 13:36:57,476 DEBUG Engine.Configuration] Reading /Users/christopher.grimward/.bzt-rc as YAML
+[2020-03-11 13:36:57,481 DEBUG Engine.Configuration] Configs: ['/Users/christopher.grimward/.bzt-rc']
+[2020-03-11 13:36:57,482 DEBUG Engine.Configuration] Reading /Users/christopher.grimward/.bzt-rc as YAML
+[2020-03-11 13:36:57,486 DEBUG Engine] Requesting updates info: https://gettaurus.org/updates/?version=1.14.1&installID=macos-acde48001122
+[2020-03-11 13:36:57,486 DEBUG HTTPClient] Making HTTP request GET https://gettaurus.org/updates/?version=1.14.1&installID=macos-acde48001122
+[2020-03-11 13:36:57,486 INFO Engine] Artifacts dir: /Users/christopher.grimward/Development/repo/performanceTesting/src/test/resources/performance_tests/2020-03-11_13-36-57.486314
+[2020-03-11 13:36:57,487 DEBUG Engine] New artifact filename: /Users/christopher.grimward/Development/repo/performanceTesting/src/test/resources/performance_tests/2020-03-11_13-36-57.486314/effective
+[2020-03-11 13:36:57,488 DEBUG Engine.Configuration] Dumping YAML config into /Users/christopher.grimward/Development/repo/performanceTesting/src/test/resources/performance_tests/2020-03-11_13-36-57.486314/effective.yml
+[2020-03-11 13:36:57,501 DEBUG Engine.Configuration] Dumping JSON config into /Users/christopher.grimward/Development/repo/performanceTesting/src/test/resources/performance_tests/2020-03-11_13-36-57.486314/effective.json
+[2020-03-11 13:36:57,502 DEBUG root] Closing log handler: /var/folders/64/8vj76xwx4tq6ymjy4z1vbw9hrj3f4w/T/bzt_x09greko.log
+[2020-03-11 13:36:57,517 DEBUG root] Switched writing logs to /Users/christopher.grimward/Development/repo/performanceTesting/src/test/resources/performance_tests/2020-03-11_13-36-57.486314/bzt.log
+[2020-03-11 13:36:57,517 DEBUG root] Linting config
+[2020-03-11 13:36:57,519 INFO Engine] Preparing...
+[2020-03-11 13:36:57,519 DEBUG Engine] Module config: consolidator {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2020-03-11 13:36:57,519 DEBUG root] Importing module: bzt.modules.aggregator
+[2020-03-11 13:36:57,838 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/Cellar/bzt/1.14.1/libexec/lib/python3.7/site-packages/bzt/modules/aggregator.py'>
+[2020-03-11 13:36:57,838 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2020-03-11 13:36:57,838 DEBUG Engine] Module config: monitoring {'class': 'bzt.modules.monitoring.Monitoring'}
+[2020-03-11 13:36:57,839 DEBUG root] Importing module: bzt.modules.monitoring
+[2020-03-11 13:36:57,846 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/Cellar/bzt/1.14.1/libexec/lib/python3.7/site-packages/bzt/modules/monitoring.py'>
+[2020-03-11 13:36:57,847 DEBUG Engine] Module config: local {'class': 'bzt.modules.provisioning.Local'}
+[2020-03-11 13:36:57,847 DEBUG root] Importing module: bzt.modules.provisioning
+[2020-03-11 13:36:57,847 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/Cellar/bzt/1.14.1/libexec/lib/python3.7/site-packages/bzt/modules/provisioning.py'>
+[2020-03-11 13:36:57,847 ERROR root] Config Error: No 'execution' is configured. Did you forget to pass config files?
+[2020-03-11 13:36:57,848 DEBUG root] TaurusConfigError: No 'execution' is configured. Did you forget to pass config files?
+  File "/usr/local/Cellar/bzt/1.14.1/libexec/lib/python3.7/site-packages/bzt/cli.py", line 258, in perform
+    self.engine.prepare()
+  File "/usr/local/Cellar/bzt/1.14.1/libexec/lib/python3.7/site-packages/bzt/engine/engine.py", line 195, in prepare
+    self.__prepare_provisioning()
+  File "/usr/local/Cellar/bzt/1.14.1/libexec/lib/python3.7/site-packages/bzt/engine/engine.py", line 591, in __prepare_provisioning
+    self.provisioning.prepare()
+  File "/usr/local/Cellar/bzt/1.14.1/libexec/lib/python3.7/site-packages/bzt/modules/provisioning.py", line 70, in prepare
+    super(Local, self).prepare()
+  File "/usr/local/Cellar/bzt/1.14.1/libexec/lib/python3.7/site-packages/bzt/engine/modules.py", line 129, in prepare
+    raise exc
+[2020-03-11 13:36:57,848 INFO Engine] Post-processing...
+[2020-03-11 13:36:57,848 DEBUG Engine.consolidator] Consolidator buffer[0]: dict_keys([])
+[2020-03-11 13:36:57,849 DEBUG Engine.Configuration] Dumping YAML config into /Users/christopher.grimward/Development/repo/performanceTesting/src/test/resources/performance_tests/2020-03-11_13-36-57.486314/effective.yml
+[2020-03-11 13:36:57,863 DEBUG Engine.Configuration] Dumping JSON config into /Users/christopher.grimward/Development/repo/performanceTesting/src/test/resources/performance_tests/2020-03-11_13-36-57.486314/effective.json
+[2020-03-11 13:36:57,863 INFO root] Artifacts dir: /Users/christopher.grimward/Development/repo/performanceTesting/src/test/resources/performance_tests/2020-03-11_13-36-57.486314
+[2020-03-11 13:36:57,864 WARNING root] Done performing with code: 1
+[2020-03-11 13:36:57,864 DEBUG root] Closing log handler: /Users/christopher.grimward/Development/repo/performanceTesting/src/test/resources/performance_tests/2020-03-11_13-36-57.486314/bzt.log

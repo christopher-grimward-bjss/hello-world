@@ -6,13 +6,12 @@ scenarios:
     script: My_First_Performance_Test.jmx
 
 reporting:
-  - module: console
   - module: passfail
     criteria:
       - subject: avg-rt
         condition: '>'
-        threshold: 60ms
+        threshold: 10ms
         logic: for
-        timeframe: 30s
+        timeframe: 1s
         stop: false
         fail: true
