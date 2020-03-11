@@ -1,5 +1,8 @@
+execution:
+  - scenario: simple
+
 scenarios:
-  with_script:
+  simple:
     script: My_First_Performance_Test.jmx
 
 reporting:
